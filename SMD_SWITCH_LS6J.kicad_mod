@@ -1,4 +1,4 @@
-(module SMD_SWITCH_LS6J (layer F.Cu) (tedit 54AAFADF)
+(module SMD_SWITCH_LS6J (layer F.Cu) (tedit 56CAB0F0)
   (fp_text reference SW1 (at 0.0254 -0.00762) (layer F.SilkS)
     (effects (font (size 0.50038 0.50038) (thickness 0.12446)))
   )
@@ -14,9 +14,4 @@
   (pad 1 smd rect (at -2.3495 2.30124) (size 1.5494 0.89916) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.3495 -2.30124) (size 1.5494 0.89916) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 2.3495 2.30124) (size 1.5494 0.89916) (layers F.Cu F.Paste F.Mask))
-  (model my3Dlib/SW_SMD_LS6J.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 10 10 10))
-    (rotate (xyz 0 0 0))
-  )
 )
